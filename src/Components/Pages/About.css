@@ -1,0 +1,112 @@
+.height-100vh {
+    height: 100vh;
+    background: lightgrey;
+  }
+  
+  .center-aligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-image {
+    
+    opacity: .3;
+    width: 100%;
+    object-fit:cover; 
+    height: 100%;
+   
+  }
+
+  
+  
+  .text {
+    text-align: center;
+    position: relative;
+    color: black;
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    font-size: 100px;
+    background: transparent  ; 
+    padding: 90px;
+    opacity: 100;
+  }
+
+  .text1 {
+
+    text-align: center;
+    position: relative;
+    color: rgb(20, 16, 236);
+    font-family:  'Gill Sans ', 'Gill Sans MT ';
+    font-size: 60px;
+    background: transparent  ; 
+    padding: 60px;
+  }
+ 
+  .icon-title{  
+    text-align: center;
+    position: relative;
+    color: rgb(139, 0, 81);
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: white;
+    padding: 10px;
+    font-size: 15pt;
+  }
+
+  .section-title{  
+    text-align: center;
+    position: relative;
+    color: rgb(139, 0, 81);
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: rgb(191, 235, 198);
+    padding: 10px;
+    font-size: 30pt;
+  }
+
+  .about{  
+    text-align: center;
+    position: relative;
+    color: rgb(139, 0, 81);
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: white;
+    padding: 10px;
+    font-size: 25pt;
+  }
+ 
+  .h1{
+    position: absolute;
+    color: darkcyan;
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: white;
+    padding: 10px;
+    font-size: 10pt;
+  }
+  
+  .h2 {
+    text-align: center;
+    position: absolute;
+    color: darkcyan;
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: white;
+    padding: 30px;
+  }
+  
+  .h3 {
+    position: absolute;
+    color: darkcyan;
+    font-family:  'Gill Sans', 'Gill Sans MT';
+    background: white;
+    padding: 20px;
+  }
+
+  .background{
+    background-image: url(./hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+ 
+ 
+  }
+
+ 

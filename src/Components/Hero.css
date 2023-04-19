@@ -1,0 +1,67 @@
+.height-100vh {
+  height: 100vh;
+  background: lightgrey;
+}
+
+.center-aligned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  position: relative;
+  opacity: .3;
+  width: 100%;
+  object-fit:cover; 
+  height: 100%;
+ 
+}
+
+.foreground-image {
+  position: absolute;
+    top:-1px; 
+    left: 0px;
+  opacity: 1;
+  width: 500px;
+  object-fit:none; 
+  height:70px;
+  width: 500px;
+
+
+
+}
+
+
+
+.text {
+  position: absolute;
+  color: rgb(21, 107, 13);
+  font-family:  'Cursive';
+  font-size: 100px;
+/*   background: darkcyan; */
+  padding: 60px;
+}
+
+.text1 {
+  position: absolute;
+  color: white;
+  font-family:  'Gill Sans', 'Gill Sans MT';
+  background: darkcyan;
+  padding: 20px;
+}
+
+.text3 {
+  position: absolute;
+    top: 0;
+    left: 0;
+  color: white;
+  font-family:  'Gill Sans', 'Gill Sans MT';
+  background: darkcyan;
+  padding: 20px;
+  width:25;
+  height: 25;
+
+}
+
+
